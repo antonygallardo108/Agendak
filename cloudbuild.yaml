@@ -5,3 +5,6 @@ steps:
   args: ['push', 'gcr.io/$PROJECT_ID/mi-app-docker']
 images:
 - 'gcr.io/$PROJECT_ID/mi-app-docker'
+options:
+  logging: CLOUD_LOGGING_ONLY
+
